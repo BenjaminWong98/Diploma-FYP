@@ -1,0 +1,42 @@
+/* For the package page */
+
+#package-header {
+	width: 100%;
+}
+
+#package-image {
+	width: 100%;
+}
+
+#pageNav {
+	margin-bottom: 50px;
+}
+
+#pageNav ul {
+	text-align: center;
+}
+
+#pageNav ul li {
+	display: inline;
+}
+
+#pageNav ul li a {
+	text-decoration: none;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	padding: 10px;
+	color: black;
+	font-size: 1.2em;
+}
+
+#pageNav ul li a:hover {
+	color: #afadb5;
+}
+
+.selectedPage {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	padding: 10px;
+	color: white;
+	background: #5e5c66;
+	border-radius: 50%;
+	font-size: 1.2em;
+}

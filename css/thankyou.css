@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 5em;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.5em;
+}
+
+.position{
+    text-align: center;
+}
+
+.buttonPosition {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#buttonColor {
+	background-color: #f7ae31;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttonColor:hover {
+    text-decoration: none !important;
+	background-color: #c18319;
+	color: white;
+}

@@ -1,0 +1,208 @@
+* {
+	box-sizing: border-box;
+}
+
+.w3-sidebar a{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+
+.linkTrash {
+    color: #337ab7;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .w3-sidebar a{
+        font-size: 3.2vw;
+    }
+}
+@media screen and (max-width: 400px){
+    .w3-sidebar a{
+        font-size: 3.8vw;
+    }
+}
+
+.status {
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px;
+	color: white;
+}
+
+#pending {
+	background: #ffca4a;
+}
+
+#first-section {
+	width: 100%;
+	margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+#first-section .total {
+	height: 150px;
+	float: left;
+	border-radius: 20px;
+    position: relative;
+}
+
+#first-section #totalOrder {
+	width: 30%;
+    background: #7fb0ff;
+}
+
+#first-section #totalPackage {
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+    background: #f47a8a;
+}
+
+#first-section #totalUser {
+	width: 30%;
+    background: #f4d17a;
+}
+
+#first-section .total span {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 1.3em;
+}
+
+#first-section .num {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size: 4em;
+}
+
+#order-table {
+	margin-top: 80px;
+    margin-bottom: 50px;
+	margin-left: 20px;
+}
+
+#order-table thead {
+	background: darkgrey;
+	border-bottom: 2px solid red;
+    color: white;
+}
+
+/* Important part */
+#myModal {
+    outline: none;
+}
+#myModal .modal-dialog {
+    height: 0px;
+}
+#myModal .modal-content {
+    height: 600px;
+    width: 120%;
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 250px;
+    overflow-y: auto;
+}
+.modal-open .modal {
+    overflow-x: auto !important;
+}
+
+.fixedBorder {
+    width: 50%;
+}
+
+/*for toast message*/
+#toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/*-----------------try w3school-----------*/
+.selected{
+    background-color: #eee;
+}
+	    
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+/*------------------------End Try w3school---------------*/

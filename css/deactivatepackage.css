@@ -1,0 +1,29 @@
+.position {
+    margin-top: 20px;
+}
+
+.positionPanel {
+    margin-top: 100px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#fontChange {
+    font-size: 1.5em;
+}
+
+#fontChange2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#tableFontChange {
+    font-size: 1.2em;
+}

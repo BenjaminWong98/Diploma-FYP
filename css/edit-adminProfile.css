@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+.w3-sidebar a{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+
+/* header */
+
+#header-image {
+	width: 100%;
+}
+
+#intro {
+	padding: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+}
+
+#intro h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+}
+
+#intro p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+.adminList{
+	/*margin-top: 5%;*/
+  margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 1px solid transparent;
+	text-align: center;
+}
+
+.profileAdmin{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px 15px;
+	background-color: #DCDCDC;
+	margin-top: 5%;
+	display: inline-flex;
+}
+
+#imageAdmin{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 5%;
+	width: 22vw;
+}
+
+#adminImage{
+	margin-top: 25%;
+	/*display: inline-block;*/
+	vertical-align: middle;
+  border-radius: 50px;
+	width: 20vw;
+	max-height: 40vh;
+}
+
+.inputfile{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+	text-align: left;
+	border: 2px solid black;
+}
+
+.inputfile,label{
+	position: relative;
+	font-size: 1.3vw;
+	font-weight: 700;
+	color: inherit;
+	display: inline-block;
+	cursor: pointer;
+	padding: 8px;
+}
+
+.inputfile:focus,label{
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.adminList table{
+	margin: auto;
+  font-size: 1.2vw;
+  background-color: #DCDCDC;
+}
+
+#adminTable{
+	display: inline-block;
+  margin-top: 5%;
+  padding: 8px;
+}
+
+#adminTable td{
+  padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.controlButton{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.control{
+	font-size: 1.3vw;
+  text-decoration: none;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+  color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+}

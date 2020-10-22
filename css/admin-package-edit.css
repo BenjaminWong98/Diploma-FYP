@@ -1,0 +1,40 @@
+.tableHeight {
+    height: 400px;    
+}
+
+.header {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.modalPosition {
+    margin-top: 80px;   
+}
+
+.fixedBorder {
+    width: 20%;
+}
+
+.fixedBorder2 {
+    width: 60%;
+}
+
+.fixedBorder3 {
+    width: 10%;
+}
+
+.fixedBorder4 {
+    width: 80%;
+}
+
+.borderChg {
+    border: 5px solid black !important;
+}
+
+.borderChg2 {
+    border: 5px solid yellow !important;
+}
+
+.borderChg3 {
+    border: 5px solid red !important;
+}

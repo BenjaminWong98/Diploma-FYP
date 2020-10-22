@@ -1,0 +1,68 @@
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background: #5e5c66;
+  z-index: 1;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background: #afadb5;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Page content */
+#intro {
+  padding: 16px;
+}
+
+#packages {
+  padding: 16px;
+}
+
+#detail-desc {
+  padding: 16px;
+}
+
+#calendar {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#searchBar {
+  float: right;
+  position: relative;
+  padding: 10px;
+  width: 30%;
+}
+
+#display {
+  position: absolute;
+}

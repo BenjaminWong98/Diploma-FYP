@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+/* header */
+
+#header-image {
+	width: 100%;
+}
+
+#intro {
+	padding: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+}
+
+#intro h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+}
+
+#intro p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+.table-responsive {
+    overflow-x: hidden !important;
+}
+    
+@media screen and (min-width: 600px) {
+    .table-responsive {
+        overflow-x: none;
+    }
+}
+
+.fontChg {
+    font-size: 2em;    
+}
+
+.position {
+    margin-top: 100px;
+}
+
+.adminLogin{
+  margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.adminLogin table{
+	margin: auto;
+}
+
+#loginTable{
+  margin-bottom: 5%;
+}
+
+#loginTable td{
+  padding: 8px;
+  /*border: 2px solid black;*/
+}
+
+.controlButton{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.#login{
+	margin: auto;
+	font-size: 1.3vw;
+  text-decoration: none;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+  color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+}

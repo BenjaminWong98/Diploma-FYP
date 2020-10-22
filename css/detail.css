@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+#detail-header {
+	width: 100%;
+	height: 300px;
+	box-shadow: inset 0 0 50px 8px #232426;
+	background-repeat: no-repeat;
+}
+
+#detail-header img {
+	width: 100%;
+	height: 100%;
+}
+
+#detail-desc {
+	margin: auto;
+	width: 75%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+#detail-desc h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+	text-align: center;
+}
+
+#detail-desc p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+#myCarousel {
+	width: 60%;
+	margin: auto;
+}
+
+#itinerary {
+	width: 75%;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+#itinerary h2 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding: 10px;
+	margin-bottom: 40px;
+	background: #5e5c66; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #5e5c66, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #5e5c66, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #5e5c66, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #5e5c66, transparent);
+}
+
+#itinerary .itineraries {
+	width: 80%;
+	margin-left: 30px;
+	overflow: auto;
+}
+
+#itinerary .itineraries .day {
+	font-weight: bold;
+	float: left;
+	width: 25%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+}
+
+#itinerary .itineraries .desc {
+	float: left;
+	width: 75%;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+#buy {
+	margin-bottom: 30px;
+}
+
+#buy #login {
+	font-size: 1.1em;
+	margin: 30px;
+	text-align: center;
+}
+
+#buy a {
+	text-decoration: none;
+}
+
+#buy a #payment {
+	text-align: center;
+	width: 20%;
+	margin-left: 10%;
+	background: #5e5c66;
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding: 20px;
+}
+
+#buy a #payment:hover {
+	background: #afadb5;
+	color: black;
+}
+

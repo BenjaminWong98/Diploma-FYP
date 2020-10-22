@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+/* header */
+
+#header-image {
+	width: 100%;
+}
+
+#intro {
+	padding: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+}
+
+#intro h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+}
+
+#intro p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+.detailList{
+  margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.detailList table{
+	margin: auto;
+	font-size: 1.2vw;
+	background-color: #DCDCDC;
+	text-align: left;
+}
+
+.detailList h1{
+	margin: 8% 0 2% 0;
+  text-align: center;
+}
+
+.detailTable{
+	margin: auto;
+	font-size: 1.2vw;
+	background-color: #DCDCDC;
+	width: 60%;
+	text-align: center;
+}
+
+.detailTable td{
+	padding: 15px;
+}
+
+.detailTH{
+	width: 10vw;
+}
+
+.itineraryTable{
+	margin: auto;
+	font-size: 1.2vw;
+	background-color: #DCDCDC;
+	width: 60%;
+	text-align: center;
+}
+
+.itineraryTable th{
+	text-align: center;
+	color: white;
+	background-color: #5e5c66;
+	border: 2px solid transparent;
+	width: auto;
+}
+
+#dayItinerary{
+	width: 15vw;
+	text-align: center;
+}
+
+.itineraryTable td{
+	padding: 15px;
+	margin-top: 12%;
+	margin-bottom: 12%;
+	border: 2px solid transparent;
+}
+
+.itineraryList th{
+	padding: 8px;
+}
+
+.itineraryList td{
+	padding: 8px;
+}
+
+.dateSeat table{
+	font-size: 1.3vw;
+	width: 20vw;
+}
+
+#dateTH{
+	text-align: center;
+	color: white;
+	background-color: #5e5c66;
+	border: 2px solid transparent;
+}
+
+#dateTD{
+	margin-top: 12%;
+	margin-bottom: 12%;
+	border: 2px solid transparent;
+}
+
+.dateSeat th{
+	padding: 8px;
+	text-align: center;
+}
+
+.dateSeat td{
+	padding: 8px;
+	text-align: center;
+}
+
+.ordered table{
+	width: 60vw;
+	text-align: center;
+}
+
+.ordered h3{
+	text-align: center;
+}
+
+.orderedTable th{
+	padding: 8px;
+}
+
+.orderedTable td{
+	padding: 8px;
+}
+
+#orderedTH th{
+	text-align: center;
+	color: white;
+	background-color: #5e5c66;
+	border: 2px solid transparent;
+}
+
+#orderedTD td{
+	margin-top: 12%;
+	margin-bottom: 12%;
+	border: 2px solid transparent;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+#controlButton{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 3%;
+}
+
+#backControl{
+	font-size: 1.3vw;
+  text-decoration: none;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+  color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-right: 5%;
+}
+
+#editControl{
+	font-size: 1.3vw;
+	text-decoration: none;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	background: #5e5c66;
+	color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-right: 5%;
+}

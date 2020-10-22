@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+/* header */
+
+#header-image {
+	width: 100%;
+}
+
+#intro {
+	padding: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+}
+
+#intro h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+}
+
+#intro p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+.vieworder{
+  margin-top: 5%;
+  margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.vieworder table{
+	margin: auto;
+  font-size: 1.2vw;
+  background-color: #DCDCDC;
+}
+
+.vieworder td{
+  padding: 15px;
+}
+
+.vieworder h1{
+	font-size: 2.5vw;
+	text-align: center;
+}
+
+/*.customer{
+	display: inline-block;
+}*/
+
+.customer table{
+	margin-top: 2%;
+	width: 50vw;
+}
+
+.adminSee{
+	margin-top: 5%;
+  margin-left: auto;
+	margin-right: auto;
+	/*width: 100%;*/
+}
+
+#alignCenter{
+	margin: auto;
+	width: 80%;
+	overflow: auto;
+}
+
+.payment{
+	margin-right: 10%;
+	display: inline-block;
+}
+
+.payment table{
+	width: 35vw;
+}
+
+.package{
+	display: inline-block;
+}
+
+.package table{
+	width: 30vw;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+@media (max-width: 1040px) {
+	.payment{
+		display: table;
+		margin: auto;
+		border: 5px solid black;
+	}
+
+	.package{
+		display: block;
+		margin: auto;
+	}
+}
+
+#pdf{
+  width: 8%;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+  color: #fff;
+}
+
+#pdf a{
+  text-decoration: none;
+  color: white;
+}
+
+.controlButton{
+  width: 100%;
+  font-size: 1.3vw;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+  /*display: inline-table;*/
+  margin: auto;
+  color: white;
+}
+
+#confirmControl{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	background: #5e5c66;
+}
+
+#deleteControl{
+	margin-left: 2%;
+	margin-right: 2%;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+}
+
+#backControl{
+	margin-left: 2%;
+	margin-right: 2%;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+}

@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-top: 150px;
+}
+
+
+.pacContent {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  /*transition: 1s;*/
+  /*border: 5px solid yellow;*/
+}
+
+.pacContainer {
+  overflow: hidden;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*transition: 1s;*/
+  /*border: 5px solid grey;*/
+}
+
+.pacDesc {
+  /*border: 1px solid blue;*/
+  float: left;
+  height: 350px;
+  width: 16vw;
+  
+  position: relative;
+}
+
+.pacName{
+  text-align: center;
+  font-size: 1.5vw;
+  /*border: 5px solid yellow;*/
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.pacDay {
+  /*margin-top: 15%;*/
+  text-align: left;
+  /*border: 5px solid yellow;*/
+  font-size: 1.5vw;
+  margin-left: 15px;
+  font-family: 'Kalam', cursive;
+}
+
+.pacPrice{
+  font-size: 1.5vw;
+  margin-left: 15px;
+  font-family: 'Kalam', cursive;
+}
+
+#pacViewBorder{
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  bottom: 0;
+}
+
+.pacView{
+  width: 100%;
+  text-align: center;
+}
+
+.pacImage {
+  /*border: 1px solid black;*/
+  float: right;
+  width: 64vw;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover !important;
+}
+
+@media screen and (max-width: 800px) {
+  .pacDesc{
+      height: 30vh;
+    width: 100%;
+  }
+  
+  .pacDay,.pacPrice{
+      font-size: 3vw;
+  }
+
+  .pacImage{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px){
+    .pacDesc{
+        height: 25vh;
+        width: 100%;
+    }
+}

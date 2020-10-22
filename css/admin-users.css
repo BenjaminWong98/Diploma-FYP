@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+.w3-sidebar a{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+
+#customer-table {
+	margin-top: 50px;
+	width: 95%;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+#customer-table thead {
+	background: darkgrey;
+	color: white;
+	border: 1px solid;
+}
+
+.customer-img {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .w3-sidebar a{
+        font-size: 3.2vw;
+    }
+}
+@media screen and (max-width: 400px){
+    .w3-sidebar a{
+        font-size: 3.8vw;
+    }
+}

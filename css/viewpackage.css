@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+/* header */
+
+#header-image {
+	width: 100%;
+}
+
+#intro {
+	padding: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+}
+
+#intro h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+}
+
+#intro p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+.packageList{
+  margin-top: 5%;
+  margin-left: auto;
+	margin-right: auto;
+	width: 85vw;
+}
+
+.packageList table{
+	margin: auto;
+}
+
+.packageList th,td{
+  padding: 15px;
+  text-align: center;
+}
+
+#myTable td{
+	padding-top: 25px;
+}
+
+.packageList table{
+	font-size: 1vw;
+	background-color: #DCDCDC;
+	overflow: scroll;
+}
+
+thead th{
+  text-align: center;
+	color: white;
+	background-color: #5e5c66;
+  border: 2px solid transparent;
+}
+
+.packageList th{
+	padding: 8px;
+}
+
+.packageList td{
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+#linkButton{
+	color: #708090;
+	font-weight: 100;
+	border: 0.1vw solid #708090;
+	border-radius: 50px;
+	padding: 10px 20px;
+	-webkit-transition-duration: 200ms;
+	transition: 200ms;
+	text-decoration: none;
+}
+
+#linkButton:hover{
+  background-color:#708090;
+	color: #fff;
+}
+
+.pattern{
+	transition: all 0.5s;
+}
+
+.pattern span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.pattern span::after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.pattern:hover span{
+	padding-right: 17px;
+}
+
+.pattern:hover span::after{
+	opacity: 1;
+	right: 0;
+}
+
+#not-active{
+	pointer-events: none;
+	cursor: default;
+	color: red;
+}
+
+.controlButton{
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 3% 0 3% 0;
+}
+
+#deleteControl{
+  font-size: 1.3vw;
+  text-decoration: none;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+  color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#addControl{
+  font-size: 1.3vw;
+  text-decoration: none;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background: #5e5c66;
+  color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.checkboxClass{
+	display: inline-block;
+}
+
+label{
+	display: inline-block;
+	align-items: center;
+	color: #9e9e9e;
+	position: relative;
+}
+
+input[type=checkbox]{
+	width: 0;
+	height: 0;
+}
+
+label > span{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	justify-content: center;
+	border: 2px solid #9e9e9e;
+	border-radius: 3px;
+	margin-right: 15px;
+	transition: all 0.3s;
+}
+
+input:checked + label > span{
+	border: 10px solid #708090;
+	animation: bounce 250ms;
+}
+
+input:checked + label > span::before{
+	content: "";
+	position: absolute;
+	/*top: 8px;
+	left: 5px;*/
+	top: 12px;
+	left: 6px;
+	border-right: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	transform: rotate(45deg);
+	transform-origin: 0% 100%;
+	animation: checked-box 125ms 250ms forwards;
+}
+
+@keyframes checked-box {
+	0%{
+		width: 0;
+		height: 0;
+		border-color: #212121;
+		transform: translate(0,0) rotate(45deg);
+	}
+
+	33%{
+		width: 4px;
+		height: 0;
+		border-color: #212121;
+		transform: translate(0,0) rotate(45deg);
+	}
+
+	100%{
+		/*width: 6px;
+		height: 8px;*/
+		width: 5px;
+		height: 8px;
+		border-color: #212121;
+		transform: translate(0,-10px) rotate(45deg);
+	}
+}
+
+@keyframes bounce {
+	0%{
+		transform: scale(1);
+	}
+
+	33%{
+		transform: scale(.70);
+	}
+
+	100%{
+		transform: scale(1);
+	}
+}

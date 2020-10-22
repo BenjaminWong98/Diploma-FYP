@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+/* header */
+
+#header-image {
+	width: 100%;
+}
+
+#intro {
+	padding: 40px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 50px;
+}
+
+#intro h1 {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 3em;
+	margin-bottom: 30px;
+	color: #4b5150;
+}
+
+#intro p {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	line-height: 1.5em;
+	color: #4b5150;
+	text-align: justify;
+}
+
+.userAccount{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85vw;
+	margin-bottom: 8%;
+}
+
+.userAccount #textAccount{
+	margin-top: 8%;
+	font-size: 2.5vw;
+	text-align: center;
+}
+
+.userAccount table{
+	text-align: left;
+	margin: auto;
+}
+
+.table thead{
+	text-align: center;
+	color: white;
+	background-color: #5e5c66;
+  border: 2px solid transparent;
+}
+
+.table td{
+	margin-top: 12%;
+	margin-bottom: 12%;
+	border: 2px solid transparent;
+}
+
+#block{
+	color: red;
+}
+
+#unactive{
+	color: green;
+}
